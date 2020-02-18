@@ -28,7 +28,7 @@ namespace WindowsGSM.GameServer
         public string port = "25565";
         public string defaultmap = "world";
         public string maxplayers = "20";
-        public string additional = "-Xmx1024M -Xms1024M -XX:+UseG1GC";
+        public string additional = "-Xmx6G -Xms6G -XX:+UseG1GC";
 
         private enum Java : int
         {
